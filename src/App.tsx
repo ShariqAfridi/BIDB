@@ -1,4 +1,4 @@
-import { Redirect, Route } from 'react-router-dom';
+import {Redirect, Route, useHistory} from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import React, {useState} from 'react';
@@ -58,7 +58,7 @@ function App() {
           </Route>
           <Route path="/dashboard/:id" component={Dashboard} exact={true} />
           <Route exact path="/">
-            <Redirect to="/home" />
+            <Redirect to="/login" />
           </Route>
         </IonRouterOutlet>
       </IonReactRouter>
