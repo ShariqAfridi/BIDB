@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "balanced_image_evaluations_app",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

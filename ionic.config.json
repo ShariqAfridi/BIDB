@@ -1,0 +1,7 @@
+{
+  "name": "balanced_image_evaluations_app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

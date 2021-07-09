@@ -1,0 +1,131 @@
+/* .vertical-align{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+IonItemDivider{
+    border:1px solid #BDBDBD;
+}
+.item-divider-text{
+   color: #BDBDBD;
+}
+
+.main-view {
+    --background: #E5E5E5;
+}
+
+.login-main-view {
+    padding: 5rem;
+    background-color: #FAFAFA;
+    margin-top: 10%;
+}
+
+.login-view-title {
+    background-color: transparent;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.login-button {
+    --background: #3B709C;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.forgot-password-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+
+    /* 1 */
+    color: #3B709C;
+}
+
+.item-divider-login {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.form-group{
+    padding:10px;
+    padding-bottom: 1.2rem;
+    text-align: left;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+
+}
+.form-group>label{
+    position:absolute;
+    top:-1px;
+    left:20px;
+    background-color:white;
+}
+
+.form-group>IonInput{
+    border:none;
+    text-align: left;
+}
+
+.form-group-input-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+
+    /* Gray 4 */
+    color: #BDBDBD;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.form-group-input-text-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* identical to box height, or 133% */
+    letter-spacing: 0.4px;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.input-fields-col {
+    margin-bottom: 1.2rem;
+}
+
+.remove-white-background {
+    --background: #fafafa;
+}

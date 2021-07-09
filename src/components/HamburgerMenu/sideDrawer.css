@@ -1,0 +1,35 @@
+.sideDrawer{
+    height: 100%;
+    background: #1F3061;
+    box-shadow: 2px 0px 5px rgb(0,0,0,0.5);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:70%;
+    max-width:400px;
+    min-width:200px;
+    z-index: 200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sideDrawer ul{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+}
+.sideDrawer li{
+    margin: 0.5rem 0;
+}
+.sideDrawer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.sideDrawer a:hover,
+.sideDrawer a:active{
+color:gray;
+}
