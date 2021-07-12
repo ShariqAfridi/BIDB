@@ -2,10 +2,8 @@ import React, {Component} from "react";
 import { GoogleLogin } from "react-google-login";
 import "./loginWithGoogle.css";
 import { useHistory} from "react-router-dom";
-import { withAlert } from 'react-alert'
 
 function GoogleWithLogin() {
-    let alert = withAlert();
     let history  = useHistory();
     let responseGoogleSuccess = (response) => {
     console.log(response);

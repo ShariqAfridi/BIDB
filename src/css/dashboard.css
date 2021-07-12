@@ -1,0 +1,251 @@
+.toolbar-header {
+    --background: #1f3061;
+    height: 64px;
+}
+
+.dashboard-input-text {
+    font-family: Roboto;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #BDBDBD;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.dsahboard-group {
+    padding: 10px;
+    /* padding-bottom: 1.2rem; */
+    text-align: left;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+}
+.margin-remover {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+.search-button {
+    height: 96%;
+    align-items: center;
+    padding: 7px 20px;
+    right: 24px;
+    top: 14.81%;
+    bottom: 79.26%;
+    background: #1F3061;
+    box-shadow: 0px 2px 8px rgba(31, 48, 97, 0.2);
+    border-radius: 4px;
+}
+
+.remove-paddin{
+    padding-top: 0px;
+}
+
+.header-search-remove-margin {
+    margin-bottom: 0px;
+}
+
+.filter-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    margin-top: 0.5rem;
+}
+
+.filter-text-wrapper {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.filter-text-icons {
+    display: grid;
+}
+
+.icon-button {
+    color: black;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.icon-button-selected {
+    color: #77CBCE;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.separate-line {
+    border: 1px solid #828282;
+    margin-top: 1rem;
+}
+
+.main-filter-alignment {
+    text-align: left;
+    margin-top: 1em;
+}
+
+.row-data-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    /* text */
+    color: #293A3E;
+
+
+}
+.table-row-data {
+    height: 56px;
+    /* background-color: red; */
+    left: 24px;
+}
+.table-row-data-column {
+    margin-top: 1rem;
+}
+.separate-table-rows {
+    border: 1px solid #EAEAEA;
+}
+.row-data-icons {
+    height: 25px;
+
+}
+.type-item-t1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+
+    background: #E5E5E5;
+    border-radius: 4px;
+}
+
+.type-item-2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #77CBCE;
+    border-radius: 4px;
+}
+
+.type-item-3 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #1F3061;
+    border-radius: 4px;
+}
+
+.type-item-innor-icon {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    /* left: 60px; */
+    background: #EB5757;
+    border-radius: 2px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+.type-item-inner-text {
+    padding: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+
+}
+
+.type-item-inner-text-color1 {
+    color: #1F3061;
+}
+
+.type-item-inner-text-color {
+    color: white;
+}
+
+.type-item-right-icon {
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+}
+.type-colum-dt {
+    display: flex;
+}
+
+.close-button {
+    height: 28px;
+    width: 28px;
+    /* top: 36.54%; */
+    /* bottom: 60.49%; */
+    background: rgba(235, 87, 87, 0.2);
+    border-radius: 50%;
+}
+
+.close-button-inner {
+    /* Vector */
+
+    margin-top: 8px;
+    width: 12px;
+
+    /*background: #EB5757;*/
+
+}
+
+.tick-button {
+    width: 28px;
+    bottom: 67.41%;
+    background: rgba(39, 174, 96, 0.2);
+    border-radius: 14px;
+}
+
+.question-button {
+
+}
+
+.checkmark {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+}
+
+.checkmark_stem {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background-color: #27AE60;
+    left: 13px;
+    top: 6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    background-color: #27AE60;
+    left: 8px;
+    top: 15px;
+}

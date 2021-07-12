@@ -129,3 +129,11 @@ IonItemDivider{
 .remove-white-background {
     --background: #fafafa;
 }
+
+.main-column {
+    width: 60rem;
+}
+
+.sub-column {
+    width: 30rem;
+}
